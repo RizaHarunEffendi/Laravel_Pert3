@@ -15,7 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get('/daftar-mahasiswa/{kelas?}', 'MahasiswaController@index');
 
 Route::resource('daftar-mahasiswa', 'MahasiswaController');
 
